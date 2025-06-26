@@ -28,7 +28,7 @@ const AddJob = () => {
       navigate('/my-posted-jobs');
       toast.success('Data Added Successfully!!!')
     }catch (err) {
-      toast.err(err?.message)
+      toast.error(err?.message)
     }
 
   }
